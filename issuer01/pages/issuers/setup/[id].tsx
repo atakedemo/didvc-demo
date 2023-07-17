@@ -112,7 +112,7 @@ import {
         <Box padding={4}>
           <Heading as="h3" size="lg" >STEP1｜ログイン認証</Heading>
           <Text>連携先のサービスに対してログインし、情報の取得を許可してください</Text>
-          <Box padding={4} backgroundColor='#F2F1EF'>
+          <Box padding={4} marginTop={4} backgroundColor='#F2F1EF'>
             <form onSubmit={handleLogin}>
               <FormControl marginBottom={4}>
                 <FormLabel>ID</FormLabel>

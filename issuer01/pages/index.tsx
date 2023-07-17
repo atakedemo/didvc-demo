@@ -73,21 +73,21 @@ const Home = () => {
   useEffect(() => {
     // ログイン処理や初期データの取得などの副作用を実行
   }, []);
-  //if (session) {
+  if (session) {
     return (
       <Box>
         <Header />
         <IssuersList />
       </Box>
     );
-  /*
+
   }
   return (
     <>
       Not signed in <br />
       <button onClick={() => signIn()}>Sign in</button>
     </>
-  );*/
+  );
 };
 
 export default Home;
